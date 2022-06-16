@@ -6,6 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "build:ui-comps": "ng build ui-comps",
+    "pack:ui-comps": "cd dist/ui-comps && npm pack && cd -",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
